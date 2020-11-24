@@ -1,0 +1,35 @@
+#title-card,
+#title-image {
+  opacity: 1;
+  z-index: 1;
+  @apply transition-opacity duration-500;
+}
+
+#title-card-dark,
+#title-image-dark {
+  opacity: 0;
+  z-index: 0;
+  @apply transition-opacity duration-500;
+}
+
+#title-image,
+#title-image-dark {
+  max-height: 440px;
+}
+
+.dark {
+  #title-card,
+  #title-image {
+    opacity: 0;
+    z-index: 0;
+  }
+  #title-card-dark,
+  #title-image-dark {
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+#title-card-content {
+  z-index: 2;
+}

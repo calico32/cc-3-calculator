@@ -1,0 +1,23 @@
+node_modules
+
+dist
+
+.env
+data
+sounds
+logs
+
+assets/parrot*/
+
+deploy
+gamerbot
+
+yarn-error.log
+
+# yarn 2 stuff
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -1,0 +1,11 @@
+nav a {
+  @apply text-sm text-gray-300 font-body;
+
+  &:hover {
+    @apply text-white;
+  }
+
+  &.active {
+    @apply font-semibold text-white cursor-default;
+  }
+}
